@@ -1,0 +1,65 @@
+/* ===================
+        RESETS
+   ===================
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* ===================
+        Flex
+   ===================
+*/
+
+.flexer {
+    display: flex;
+    &.col {
+        flex-direction: column;
+    }
+    &.center {
+        justify-content: center;
+    }
+    &.between {
+        justify-content: space-between;
+    }
+    & > .grower {
+        flex-grow: 1;
+    }
+}
+/* ===================
+        Typography
+   ===================
+*/
+
+.text-center {
+    text-align: center;
+}
+.bigger {
+    font-size: 2.5em;
+}
+.big {
+    font-size: 1.6em;
+}
+.small {
+    font-size: 0.8em;
+}
+/* ===================
+        Lists
+   ===================
+*/
+
+.list-inline > li {
+    // TOTEST
+    display: inline-block;
+}

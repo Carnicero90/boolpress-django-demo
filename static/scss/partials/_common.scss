@@ -1,0 +1,36 @@
+/* ===================
+        Brand colors
+   ===================
+*/
+.text-c-1{
+    color: $text-c-1;
+}
+.text-c-2 {
+    color: $text-c-2;
+}
+.title {
+    font-family: 'jomhuria';
+}
+
+.bg-c-1 {
+    background-color: $brand-c-1;
+}
+.bg-c-2 {
+    background-color: $brand-c-2;
+}
+.bg-c-3 {
+    background-color: $brand-c-3;
+}
+
+/* ===================
+        Layout
+   ===================
+*/
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    min-height: 100vh;
+}

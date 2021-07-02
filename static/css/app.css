@@ -1,0 +1,130 @@
+/* ===================
+        Palette
+   ===================
+*/
+/* ===================
+        RESETS
+   ===================
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===================
+        Flex
+   ===================
+*/
+.flexer {
+  display: flex;
+}
+
+.flexer.col {
+  flex-direction: column;
+}
+
+.flexer.center {
+  justify-content: center;
+}
+
+.flexer.between {
+  justify-content: space-between;
+}
+
+.flexer > .grower {
+  flex-grow: 1;
+}
+
+/* ===================
+        Typography
+   ===================
+*/
+.text-center {
+  text-align: center;
+}
+
+.bigger {
+  font-size: 2.5em;
+}
+
+.big {
+  font-size: 1.6em;
+}
+
+.small {
+  font-size: .8em;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+/* ===================
+        Typography
+   ===================
+*/
+.text-c-1 {
+  color: red;
+}
+
+.text-c-2 {
+  color: white;
+}
+
+.title {
+  font-family: 'jomhuria';
+}
+
+.bg-c-1 {
+  background-color: #fff1e5;
+}
+
+.bg-c-2 {
+  background-color: rgba(192, 192, 192, 0.945);
+}
+
+.bg-c-3 {
+  background-color: crimson;
+}
+
+header {
+  background-color: #fff1e5;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+body {
+  font-family: 'nunito', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+}
+
+header {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
